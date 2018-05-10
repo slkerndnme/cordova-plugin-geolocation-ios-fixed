@@ -1,7 +1,3 @@
----
-title: Geolocation
-description: Access GPS data.
----
 <!--
 # license: Licensed to the Apache Software Foundation (ASF) under one
 #         or more contributor license agreements.  See the NOTICE file
@@ -39,6 +35,11 @@ If you want you can precise it by this way:
 ```
 cordova plugin add cordova-plugin-geolocation-ios-fixed --variable USAGE_DESCRIPTION="My usage"
 ```
+
+---
+title: Geolocation
+description: Access GPS data.
+---
 
 |AppVeyor|Travis CI|
 |:-:|:-:|
