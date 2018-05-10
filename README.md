@@ -21,11 +21,6 @@ description: Access GPS data.
 #         under the License.
 -->
 
-|AppVeyor|Travis CI|
-|:-:|:-:|
-|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/cordova-plugin-geolocation?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/cordova-plugin-geolocation)|[![Build Status](https://travis-ci.org/apache/cordova-plugin-geolocation.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-geolocation)|
-
-
 # cordova-plugin-geolocation-ios-fixed
 
 Copy of apache plugin cordova-plugin-geolocation, reliable on android but bugged on iOS caused by missed properties injections in the plist file.
@@ -45,6 +40,9 @@ If you want you can precise it by this way:
 cordova plugin add cordova-plugin-geolocation-ios-fixed --variable USAGE_DESCRIPTION="My usage"
 ```
 
+|AppVeyor|Travis CI|
+|:-:|:-:|
+|[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/cordova-plugin-geolocation?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/cordova-plugin-geolocation)|[![Build Status](https://travis-ci.org/apache/cordova-plugin-geolocation.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-geolocation)|
 
 
 # cordova-plugin-geolocation
