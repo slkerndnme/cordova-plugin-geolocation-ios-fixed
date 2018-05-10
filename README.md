@@ -25,6 +25,28 @@ description: Access GPS data.
 |:-:|:-:|
 |[![Build status](https://ci.appveyor.com/api/projects/status/github/apache/cordova-plugin-geolocation?branch=master)](https://ci.appveyor.com/project/ApacheSoftwareFoundation/cordova-plugin-geolocation)|[![Build Status](https://travis-ci.org/apache/cordova-plugin-geolocation.svg?branch=master)](https://travis-ci.org/apache/cordova-plugin-geolocation)|
 
+
+# cordova-plugin-geolocation-ios-fixed
+
+Copy of apache plugin cordova-plugin-geolocation, reliable on android but bugged on iOS caused by missed properties injections in the plist file.
+(NSLocationAlwaysAndWhenInUseUsageDescription and NSLocationWhenInUseUsageDescription)
+
+## Usage
+
+```
+cordova plugin add cordova-plugin-geolocation-ios-fixed
+```
+
+By default, the usage description value is: "Need location data to display reliable content to the user."
+
+If you want you can precise it by this way:
+
+```
+cordova plugin add cordova-plugin-geolocation-ios-fixed --variable USAGE_DESCRIPTION="My usage"
+```
+
+
+
 # cordova-plugin-geolocation
 
 This plugin provides information about the device's location, such as

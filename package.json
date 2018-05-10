@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-geolocation",
+  "name": "cordova-plugin-geolocation-ios-fixed",
   "version": "4.0.2-dev",
-  "description": "Cordova Geolocation Plugin",
+  "description": "Cordova Geolocation Plugin iOS fixed",
   "cordova": {
-    "id": "cordova-plugin-geolocation",
+    "id": "cordova-plugin-geolocation-ios-fixed",
     "platforms": [
       "android",
       "ios",
@@ -12,10 +12,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/apache/cordova-plugin-geolocation"
+    "url": "https://github.com/slkerndnme/cordova-plugin-geolocation-ios-fixed"
   },
   "bugs": {
-    "url": "https://issues.apache.org/jira/browse/CB"
+    "url": ""
   },
   "keywords": [
     "cordova",
